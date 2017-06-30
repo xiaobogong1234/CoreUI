@@ -45,7 +45,7 @@ filter
 js,css,html,less,sass,图片,字体文件等
 
 ##开发环境(www)
->开发环境中分为ajs(项目入口),img,css,lib(第三方库),template(index模板,需要引入第三方库),view(功能模块)
+>开发环境中分为js(项目入口),img,css,lib(第三方库),template(index模板,需要引入第三方库),view(功能模块)
 
 ##发布环境(build)
 >发布环境中分为chunks(懒加载模块)，fonts(打包的字体文件),img(打包的图片),lib(复制第三方库),script(打包的js文件)和index.html
