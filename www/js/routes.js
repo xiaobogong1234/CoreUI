@@ -1,6 +1,6 @@
 'use strict';
 module.exports = angular.module('app.route', []).config(function($stateProvider, $urlRouterProvider, $breadcrumbProvider, $ocLazyLoadProvider) {
-
+  $urlRouterProvider.otherwise('/dashboard');
   $ocLazyLoadProvider.config({
     // Set to true if you want to see what and when is dynamically loaded
     debug: true
