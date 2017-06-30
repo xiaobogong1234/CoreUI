@@ -1,6 +1,6 @@
 'use strict';
 module.exports = angular
-  .module('app.directives', [])
+  .module('app.default', [])
   .directive('a', preventClickDirective)
   .directive('a', bootstrapCollapseDirective)
   .directive('a', navigationDirective)

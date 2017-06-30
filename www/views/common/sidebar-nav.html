@@ -2,41 +2,40 @@
     <nav class="sidebar-nav">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" ui-sref-active="active" ui-sref="app.main"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>
+                <a class="nav-link" ui-sref-active="active" ui-sref="app.main"><i class="icon-speedometer"></i> 首页 <span class="badge badge-info">NEW</span></a>
             </li>
             <li class="divider"></li>
             <li class="nav-title">
-                UI Elements
-            </li>
+               功能模块
             <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.components')}">
-                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.components')}" href="#"><i class="icon-puzzle"></i> Components</a>
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.components')}" href="#"><i class="icon-puzzle"></i> 水雨情</a>
                 <ul class="nav-dropdown-items">
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="app.main1"><i class="icon-puzzle"></i> dashboard</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.main1"><i class="icon-puzzle"></i> 页面一</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="app.main2"><i class="icon-puzzle"></i> dashboard2</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.main2"><i class="icon-puzzle"></i> 页面二</a>
                     </li>
                 </ul>
             </li>
             <li class="divider"></li>
             <li class="nav-title">
-                Extras
+                公共模块
             </li>
             <li class="nav-item nav-dropdown" n-class="{open: $state.includes('app.pages')}">
-                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.pages')}" href="#"><i class="icon-star"></i> Pages</a>
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.pages')}" href="#"><i class="icon-star"></i> 页面</a>
                 <ul class="nav-dropdown-items">
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.login"><i class="icon-star"></i> Login</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.login"><i class="icon-star"></i> 登录</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.register"><i class="icon-star"></i> Register</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.register"><i class="icon-star"></i> 注册</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.404"><i class="icon-star"></i> Error 404</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.404"><i class="icon-star"></i>  404</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.500"><i class="icon-star"></i> Error 500</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="appSimple.500"><i class="icon-star"></i>  500</a>
                     </li>
                 </ul>
             </li>

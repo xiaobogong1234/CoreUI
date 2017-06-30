@@ -27,7 +27,7 @@ module.exports = angular.module('app.route', []).config(function($stateProvider,
       template: require('../views/main/main.html'),
       //page title goes here
       ncyBreadcrumb: {
-        label: 'Home',
+        label: '首页',
       },
       //page subtitle goes here
       params: {
@@ -52,7 +52,7 @@ module.exports = angular.module('app.route', []).config(function($stateProvider,
       template: require('../views/components/dashboard2.html'),
       //page title goes here
       ncyBreadcrumb: {
-        label: 'dashboard2',
+        label: '页面二',
       },
       //page subtitle goes here
       resolve: {
@@ -74,7 +74,7 @@ module.exports = angular.module('app.route', []).config(function($stateProvider,
       template: require('../views/components/dashboard1.html'),
       //page title goes here
       ncyBreadcrumb: {
-        label: 'dashboard1',
+        label: '页面一',
       },
       //page subtitle goes here
       resolve: {

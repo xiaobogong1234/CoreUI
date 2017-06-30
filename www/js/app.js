@@ -1,15 +1,19 @@
 // Default colors
-require("../css/style.css");
+//require("../../node_modules/bootstrap/dist/css/bootstrap.css");
+require("../../node_modules/bootstrap-table/dist/bootstrap-table.min.css");
 require("../../node_modules/simple-line-icons/css/simple-line-icons.css");
 require("../../node_modules/font-awesome/css/font-awesome.css");
-require("../../node_modules/bootstrap-table/dist/bootstrap-table.min.css");
+require("../css/style.css");
 angular
   .module('app', [
     require('angular-ui-router'),
     require('oclazyload'),
-    require('./directive/default/directives.js'),
-    require('./directive/breadcrumb/angular-breadcrumb.js'),
+
+    require('./directive.js'),
+    // require('./factory.js'),
+    // require('./filter.js'),
     require('./routes.js'),
+
   ])
   .run(
     [
